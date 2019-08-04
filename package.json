@@ -4,7 +4,7 @@
   "description": "Server for the The Quiz app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "dev": "nodemon index.js & node build/dev-index.js"
   },
   "author": "Dhruv",
@@ -14,5 +14,8 @@
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
     "pusher": "^2.2.2"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
