@@ -1,0 +1,18 @@
+{
+  "name": "quiz-server",
+  "version": "1.0.0",
+  "description": "Server for the The Quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js & node build/dev-index.js"
+  },
+  "author": "Dhruv",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pusher": "^2.2.2"
+  }
+}
