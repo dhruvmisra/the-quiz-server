@@ -51,9 +51,7 @@ app.post('/pusher/auth', (req, res) => {
   res.send(auth)
 })
 
-// Set port to be used by Node.js
-app.set('port', (3000))
 
-app.listen(app.get('port'), () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('Node app is running on port', app.get('port'))
 })
